@@ -1,0 +1,25 @@
+--cpu Cortex-M0+
+"lcd_dispaly_humidity_temperature_sensor\startup_stm32l052xx.o"
+"lcd_dispaly_humidity_temperature_sensor\system_stm32l0xx.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_tim_ex.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_flash.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_dma.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_i2c_ex.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_flash_ramfunc.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_i2c.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_rcc.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_rcc_ex.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_flash_ex.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_pwr.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_pwr_ex.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_tim.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_cortex.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_gpio.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_it.o"
+"lcd_dispaly_humidity_temperature_sensor\stm32l0xx_hal_msp.o"
+"lcd_dispaly_humidity_temperature_sensor\main.o"
+--library_type=microlib --strict --scatter "LCD_Dispaly_Humidity_Temperature_Sensor\LCD_Dispaly_Humidity_Temperature_Sensor.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LCD_Dispaly_Humidity_Temperature_Sensor.map" -o LCD_Dispaly_Humidity_Temperature_Sensor\LCD_Dispaly_Humidity_Temperature_Sensor.axf
